@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-agent2:ubuntu-7.0.2
+FROM zabbix/zabbix-agent2:ubuntu-7.0.3
 
 USER root
 
