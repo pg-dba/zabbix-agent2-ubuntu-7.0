@@ -4,7 +4,7 @@ USER root
 
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
-    apt-get -y install iputils-ping fping dnsutils telnet && \
+    apt-get -y install iputils-ping fping dnsutils telnet netcat-traditional && \
     cd /usr/sbin; ln -s /usr/bin/fping && \
     chown root:zabbix /usr/bin/fping && \
     chmod u+s /usr/bin/fping && \
